@@ -48,13 +48,10 @@ print('Input anything else to exit.'.center(100))
 choice = input()
 if choice == 'a':
     selectCards(card_list)
-    print('This was a')
 if choice == 'b':
     selectCards_Weight(card_list)
-    print('this was b')
 if choice == 'c':
     card_list.reverse()
     selectCards_Weight(card_list)
-    print('this was c')
 
 exit()
